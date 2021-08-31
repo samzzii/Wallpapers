@@ -1,0 +1,47 @@
+body {
+	background-image: url("bckgrnd2.jpg");
+	background-size: cover;
+	image-rendering: pixelated;
+	image-rendering: -webkit-optimize-contrast;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+	color: #FFD1AA;
+}
+a:hover: {
+	color: #D49A6A;
+}
+
+h1 {
+	font-family: 'Style Script', cursive;
+	color: #FFD1AA;
+	font-size: 3em;
+	text-align: center;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+	animation: ease-in;
+
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+footer {
+	text-align: center;
+	justify-content: flex-end;
+	color: #FFD1AA;
+	font-size: 10px;
+}

@@ -1,0 +1,71 @@
+body {
+	background-image: url(bckgrnd3.jpg);
+	image-rendering: pixelated;
+	image-rendering: -webkit-optimize-contrast;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Style Script', cursive;
+	color: #B6A9C1;
+	font-size: 3em;
+	text-align: center;
+}
+a {
+	color: #B6A9C1;
+}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+	animation: ease-in;
+
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+footer {
+	text-align: center;
+	justify-content: flex-end;
+	color: #6F4D8F;
+	font-size: 10px;
+}
+.navbar-brand {
+	font-family: 'Style Script', cursive;
+	color: #9277AC;
+	font-size: 3em;
+}
+.nav-link {
+	color: #9277AC;
+}
+.navbar-brand:hover {
+	color: #6F4D8F;
+}
+.nav-link:hover {
+	color: #6F4D8F;
+}
+
+.btn {
+	background-color: #9277AC;
+	border-color: #6F4D8F;
+	color: purple;
+}
+.btn:hover {
+	color: purple;
+}
+.navbar-toggler {
+	color: #B6A9C1;
+}
